@@ -16,11 +16,11 @@
         margin: auto;
         text-align: center;
         background: 
-        url('/ConferenceTicketGenerator/images/pattern-squiggly-line-top.svg') no-repeat right top,
-        url('/ConferenceTicketGenerator/images/pattern-squiggly-line-bottom.svg') no-repeat left bottom,
-        url('/ConferenceTicketGenerator/images/pattern-lines.svg') no-repeat center right,
-        url('/ConferenceTicketGenerator/images/pattern-circle.svg') no-repeat center right,
-            url('/ConferenceTicketGenerator/images/background-desktop.png') no-repeat center top; /* First background image */
+        url('./images/pattern-squiggly-line-top.svg') no-repeat right top,
+        url('./images/pattern-squiggly-line-bottom.svg') no-repeat left bottom,
+        url('./images/pattern-lines.svg') no-repeat center right,
+        url('./images/pattern-circle.svg') no-repeat center right,
+            url('./images/background-desktop.png') no-repeat center top; /* First background image */
             /* Second background image */
             /* Third background image */
         background-size: auto, auto, contain,auto, cover; /* Keeps backgrounds visible */
@@ -247,7 +247,7 @@ z-index: 1;
 
 
 .Ticket_container{
- background: url('/ConferenceTicketGenerator/images/pattern-ticket.svg');
+ background: url('./images/pattern-ticket.svg');
   background-repeat: no-repeat;
   height: 400px;
   display: flex;
@@ -350,12 +350,12 @@ border-radius: 10px;
 
 /* Base mobile styles for screens up to 375px */
 @media screen and (max-width: 375px) {
-  /* .active{
+  .active{
     display: block;
   }
   .Inactive{
     display: none;
-  } */
+  }
 
   .container {
       width: 100%;
@@ -364,11 +364,11 @@ border-radius: 10px;
      margin: auto;
      text-align: center;
      background: 
-     url('/ConferenceTicketGenerator/images/pattern-squiggly-line-top.svg') no-repeat right top,
-     url('/ConferenceTicketGenerator/images/pattern-squiggly-line-bottom.svg') no-repeat left bottom,
-     url('/ConferenceTicketGenerator/images/pattern-lines.svg') no-repeat center right,
-     url('/ConferenceTicketGenerator/images/pattern-circle.svg') no-repeat center right,
-         url('/ConferenceTicketGenerator/images/background-mobile.png') no-repeat center top; /* First background image */
+     url('./images/pattern-squiggly-line-top.svg') no-repeat right top,
+     url('./images/pattern-squiggly-line-bottom.svg') no-repeat left bottom,
+     url('./images/pattern-lines.svg') no-repeat center right,
+     url('./images/pattern-circle.svg') no-repeat center right,
+         url('./images/background-mobile.png') no-repeat center top; /* First background image */
          /* Second background image */
          /* Third background image */
      background-size: contain, contain, contain,auto, cover; /* Keeps backgrounds visible */
@@ -410,7 +410,7 @@ border-radius: 10px;
 
  
 .Ticket_container{
-  background: url('/ConferenceTicketGenerator/images/pattern-ticket.svg');
+  background: url('./images/pattern-ticket.svg');
    background-repeat: no-repeat;
    height: 100%;
    display: flex;
@@ -535,7 +535,7 @@ border-radius: 10px;
 
 
 .Ticket_container{
-background: url('/ConferenceTicketGenerator/images/pattern-ticket.svg');
+background: url('./images/pattern-ticket.svg');
 background-size: contain;
 background-repeat: no-repeat;
 background-position: right top;
